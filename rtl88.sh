@@ -2,6 +2,7 @@ echo "\n[+] Updating System...\n"
 sudo apt update
 sudo apt upgrade
 sudo apt dist-upgrade
+echo "\n[+] Installing drivers...\n"
 sudo apt install realtek-rtl88xxau-dkms
 sudo apt install dkms
 git clone https://github.com/aircrack-ng/rtl8812au
